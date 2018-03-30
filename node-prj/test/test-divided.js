@@ -1,5 +1,6 @@
 var chai = require("chai");
 const should = chai.should();
+var divided = require("../lib/divided");
              
 describe('divided', function() {
     describe('#calculate', function() {
