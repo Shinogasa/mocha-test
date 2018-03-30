@@ -1,0 +1,10 @@
+var chai = require("chai");
+const should = chai.should();
+             
+describe('divided', function() {
+    describe('#calculate', function() {
+       it('should return 2 when the value is 4', function() {
+           divided.calculate(4).should.equal(2);
+       });
+    });
+});

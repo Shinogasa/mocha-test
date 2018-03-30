@@ -1,0 +1,2 @@
+exports.calculate = function(num) {
+};
